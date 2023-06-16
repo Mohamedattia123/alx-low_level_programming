@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S -masm=dialect $CFILE | tr c s
+gcc -S -masm=dialect $CFILE -o `echo $CFILE | tr c s `
