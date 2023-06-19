@@ -6,19 +6,20 @@
  *
  * Return: Always 0 (success)
 */
-        int main(void)
+int main(void)
 {
-        char ch = 'a';
+	char ch = 'a';
+	char ch1 = 'A';
 
-        while (ch <= 'z')
+	while (ch <= 'z')
 {
-        putchar(ch);
-        ch++;
-        }
+	putchar(ch);
+	ch++;
+	}
 	while (ch1 <= 'Z')
 {
 	putchar(ch1);
 	ch1++;
 	}
-        putchar('\n');
-        return (0);
+	putchar('\n');
+	return (0);
