@@ -13,12 +13,12 @@ void print_most_numbers(void)
 {
 	char c = 0;
 
-	for (c = 0; c <= 9;c++)
+	for (c = 0; c <= 9;)
 	{
 	if (c != 2 || c != 4)
-
+	continue
 	_putchar(c + 48);
-
+	c++;
 	}
 
 	_putchar('\n');
