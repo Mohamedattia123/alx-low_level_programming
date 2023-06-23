@@ -13,7 +13,7 @@ void print_most_numbers(void)
 {
 	char c = 0;
 
-	for (c = 0; c <= 9;)
+	for (c >= 0; c <= 9;)
 	{
 	if (c != 2 || c != 4)
 		{
