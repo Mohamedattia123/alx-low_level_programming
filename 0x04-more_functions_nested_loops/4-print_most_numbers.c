@@ -15,7 +15,8 @@ void print_most_numbers(void)
 
 	for (c = 0; c <= 9;)
 	{
-	if (c != 2 || c != 4)
+	if (c == 2 || c == 4)
+		continue;
 	_putchar(c + 48);
 	c++;
 	}
