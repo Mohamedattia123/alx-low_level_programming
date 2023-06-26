@@ -22,7 +22,7 @@ char rev = s[0];
 		s[i] = s[counter];
 		s[counter] = rev;
 	}
-		_putchar('\n');
+
 
 
 }
