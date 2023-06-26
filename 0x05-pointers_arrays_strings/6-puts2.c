@@ -14,7 +14,7 @@ int longi = 0;
 	char *y = str;
 	int o;
 
-	while (y != '\0')
+	while (*y != '\0')
 	{
 		y++;
 		longi++;
